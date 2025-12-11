@@ -1,0 +1,15 @@
+pandas
+re
+sklearn
+numpy
+joblib
+os
+json
+datetime
+matplotlib
+seaborn
+lime
+IPython
+nltk
+unicodedata
+wordcloud
