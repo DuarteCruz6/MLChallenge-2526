@@ -65,3 +65,9 @@ Folder containing the assets used in the report.
 
 ### Submission Folder
 Contains the final report and the final notebook submitted. This notebook is an aggregation of some of the notebooks located in the ```notebooks/``` folder.
+
+#### Notebook Subfolder
+Contains the final notebook that corresponds to the aggregation of all notebooks of ```no_punctuation_no_stop_words/``` folder as well as the noteboooks of ```report_stuff/``` folder.
+
+#### Report Folder
+Folder containing the final report submitted and its assets.
