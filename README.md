@@ -2,6 +2,9 @@
 ## About
 Submission of group 9, Daniel Martins Borges (109474) and Duarte Pereira da Cruz (110181).
 
+## Dataset 
+The dataset is sourced from the repository available at https://github.com/ro-afonso/fake-news-pt-eu.
+
 ## Installation Instructions
 To set up the environment required to run the notebooks and load the trained models, follow the steps below.
 
