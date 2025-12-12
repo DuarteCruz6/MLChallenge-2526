@@ -1,6 +1,8 @@
 # Machine Learning Challenge 25/26
 ## Overview
-This repository contains the submission of Group 9, composed of Daniel Martins Borges (109474) and Duarte Pereira da Cruz (110181), for the Machine Learning (IST) and NTT Data Challenge 2025/26.
+This repository contains the submission of **Group 9**, composed of **Daniel Martins Borges (109474)** and **Duarte Pereira da Cruz (110181)**, for the **Machine Learning (IST) and NTT Data Challenge 2025/26**.
+
+The primary deliverables are located in the [submission folder](./submission/), which contains both the [submitted notebook](./submission/notebook/Group09_notebook.ipynb) and the [submitted report](./submission/report/report.tex). For detailed information about the remaining folders, refer to the Repository Structure section below.
 
 ## Dataset 
 The dataset is sourced from the repository available at:
