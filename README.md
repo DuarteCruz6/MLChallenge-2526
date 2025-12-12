@@ -1,9 +1,10 @@
 # Machine Learning Challenge 25/26
-## About
-Submission of group 9, Daniel Martins Borges (109474) and Duarte Pereira da Cruz (110181).
+## Overview
+This repository contains the submission of Group 9, composed of Daniel Martins Borges (109474) and Duarte Pereira da Cruz (110181), for the Machine Learning (IST) and NTT Data Challenge 2025/26.
 
 ## Dataset 
-The dataset is sourced from the repository available at https://github.com/ro-afonso/fake-news-pt-eu.
+The dataset is sourced from the repository available at:
+https://github.com/ro-afonso/fake-news-pt-eu
 
 ## Installation Instructions
 To set up the environment required to run the notebooks and load the trained models, follow the steps below.
@@ -24,53 +25,54 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## Structure
-### Docs Folder
-Folder containing all documents related to the challenge, including the statement and some notes we took.
+## Repository Structure
+### ```docs/```
+Contains all documentation related to the challenge, including the official statement and internal notes.
 
-### Notebooks Folder
-#### Data Subfolder
-Folder containing .csv files corresponding to the test dataset, the training dataset and the validation dataset.
+### ```notebooks/```
+Collection of notebooks used for data exploration, model training, and analysis.
 
-#### No_Punctuation Subfolder
-Folder containing the notebooks used for training and analysing each model in order to answer the questions in the statement. This dataset cleaning involved removing every punctuation, every special character, every extra whitespace and also making all words lowercase.
+#### ```notebooks/data/```
+Contains the ```.csv``` files for the training, validation, and test datasets.
 
-#### No_Punctuation_No_Stop_Words Subfolder
-Folder containing the notebooks used for training and analysing each model in order to answer the questions in the statement. This dataset cleaning involved removing every punctuation, every special character, every extra whitespace, removing portuguese stop words and also making all words lowercase.
+#### ```notebooks/no_punctuation/```
+Notebooks for model training and analysis using a dataset cleaned by removing punctuation, special characters, extra whitespace, and converting all words to lowercase.
 
-#### Punctuation Subfolder
-Folder containing the notebooks used for training and analysing each model in order to answer the questions in the statement. This dataset cleaning involved removing every extra whitespace and also making all words lowercase.
+#### ```notebooks/no_punctuation_no_stop_words/```
+Notebooks for model training and analysis using a dataset cleaned by removing punctuation, special characters, extra whitespace, Portuguese stop words, and converting all words to lowercase.
 
-#### Punctuation_No_Stop_Words Subfolder
-Folder containing the notebooks used for training and analysing each model in order to answer the questions in the statement. This dataset cleaning involved removing every extra whitespace, removing portuguese stop words and also making all words lowercase.
+#### ```notebooks/punctuation/```
+Notebooks for model training and analysis using a dataset cleaned by removing extra whitespace and converting all words to lowercase, while retaining punctuation.
 
-#### Report Subfolder
-Folder containing notebooks used to build the assets used in the report.
+#### ```notebooks/punctuation_no_stop_words/```
+Notebooks for model training and analysis using a dataset cleaned by removing extra whitespace, removing Portuguese stop words, and converting all words to lowercase, while retaining punctuation.
 
-#### Artifacts Subfolder
-##### No_Punctuation Subfolder
-Folder containing .joblib files including the vectorizer and the best models of each type trained on the correspondent vectorizer. This dataset cleaning involved removing every punctuation, every special character, every extra whitespace and also making all words lowercase. Check the correspondent notebook folder [here](notebooks/no_punctuation/ex1.ipynb).
+#### ```notebooks/report_stuff/```
+Notebooks used to generate the figures and supplementary materials included in the final report.
 
-##### No_Punctuation_No_Stop_Words Subfolder
-Folder containing .joblib files including the vectorizer and the best models of each type trained on the correspondent vectorizer. This dataset cleaning involved removing every punctuation, every special character, every extra whitespace, removing portuguese stop words and also making all words lowercase. Check the correspondent notebook folder [here](notebooks/no_punctuation_no_stop_words/ex1.ipynb).
+#### ```artifacts/```
+Contains serialized vectorizers and trained models in ```.joblib``` format.
 
-##### Punctuation Subfolder
-Folder containing .joblib files including the vectorizer and the best models of each type trained on the correspondent vectorizer. This dataset cleaning involved removing every extra whitespace and also making all words lowercase. Check the correspondent notebook folder [here](notebooks/punctuation/ex1.ipynb).
+##### ```artifacts/no_punctuation/```
+Includes vectorizers and the best-performing models trained on the corresponding preprocessed dataset. The notebooks used to generate these artifacts can be found [here](notebooks/no_punctuation/ex1.ipynb).
 
-#### Punctuation_No_Stop_Words Subfolder
-Folder containing .joblib files including the vectorizer and the best models of each type trained on the correspondent vectorizer. This dataset cleaning involved removing every extra whitespace, removing portuguese stop words and also making all words lowercase. Check the correspondent notebook folder [here](notebooks/punctuation_no_stop_words/ex1.ipynb).
+##### ```artifacts/no_punctuation_no_stop_words/```
+Includes vectorizers and the best-performing models trained on the corresponding preprocessed dataset. The notebooks used to generate these artifacts can be found [here](notebooks/no_punctuation_no_stop_words/ex1.ipynb).
 
-### Report Folder
-Folder containing the report and its assets.
+##### ```artifacts/punctuation/```
+Includes vectorizers and the best-performing models trained on the corresponding preprocessed dataset. The notebooks used to generate these artifacts can be found [here](notebooks/punctuation/ex1.ipynb).
 
-#### Assets Subfolder
-Folder containing the assets used in the report.
+##### ```artifacts/punctuation_no_stop_words/```
+Includes vectorizers and the best-performing models trained on the corresponding preprocessed dataset. The notebooks used to generate these artifacts can be found [here](notebooks/punctuation_no_stop_words/ex1.ipynb).
 
-### Submission Folder
-Contains the final report and the final notebook submitted. This notebook is an aggregation of some of the notebooks located in the ```notebooks/``` folder.
+### ```report/```
+Contains the final report and all associated assets.
 
-#### Notebook Subfolder
-Contains the final notebook that corresponds to the aggregation of all notebooks of ```no_punctuation_no_stop_words/``` folder as well as the noteboooks of ```report_stuff/``` folder.
+#### ```report/assets```
+Includes all visual elements and supplementary materials used in the report.
 
-#### Report Folder
-Folder containing the final report submitted and its assets.
+### ```submission/```
+Contains the final submitted materials: the report and the consolidated notebook.
+
+#### ```submission/notebook/```
+Contains the final notebook representing the aggregated work from the ```no_punctuation_no_stop_words/``` notebooks and the ```report_stuff/``` notebooks.
