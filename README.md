@@ -1,6 +1,6 @@
 # Machine Learning Challenge 25/26
 ## About
-Submission of group 9, Daniel Martins Borges (109474) and Duarte Pereira da Cruz (110181)
+Submission of group 9, Daniel Martins Borges (109474) and Duarte Pereira da Cruz (110181).
 
 ## Installation Instructions
 To set up the environment required to run the notebooks and load the trained models, follow the steps below.
@@ -62,3 +62,6 @@ Folder containing the report and its assets.
 
 #### Assets Subfolder
 Folder containing the assets used in the report.
+
+### Submission Folder
+Contains the final report and the final notebook submitted. This notebook is an aggregation of some of the notebooks located in the ```notebooks/``` folder.
