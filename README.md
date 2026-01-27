@@ -1,4 +1,5 @@
-# Machine Learning Challenge 25/26 [![DOI](https://zenodo.org/badge/1114744293.svg)](https://doi.org/10.5281/zenodo.18393435)
+# Machine Learning Challenge 25/26 
+[![DOI](https://zenodo.org/badge/1114744293.svg)](https://doi.org/10.5281/zenodo.18393435)
 ## Overview
 This repository contains the submission of **Group 9**, composed of **Daniel Martins Borges (109474)** and **Duarte Pereira da Cruz (110181)**, for the **Machine Learning (IST) and NTT Data Challenge 2025/26**.
 
