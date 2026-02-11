@@ -1,0 +1,7 @@
+{
+    "best_cv_score": 0.8504055733019256,
+    "best_params": {
+        "var_smoothing": 1e-06
+    },
+    "timestamp": "2026-02-10 11:06:38"
+}
