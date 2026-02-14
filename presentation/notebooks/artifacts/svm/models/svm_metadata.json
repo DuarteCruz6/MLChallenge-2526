@@ -1,0 +1,9 @@
+{
+    "best_cv_score": 0.9228538114965357,
+    "best_params": {
+        "C": 10,
+        "gamma": "scale",
+        "kernel": "rbf"
+    },
+    "timestamp": "2026-02-14 03:19:43"
+}
