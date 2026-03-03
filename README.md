@@ -1,7 +1,7 @@
 # Machine Learning Challenge 25/26 
 [![DOI](https://zenodo.org/badge/1114744293.svg)](https://doi.org/10.5281/zenodo.18393435)
 ## Overview
-This repository contains the submission of **Group 9**, composed of **Daniel Martins Borges (109474)** and **Duarte Pereira da Cruz (110181)**, for the **Machine Learning (IST) and NTT Data Challenge 2025/26**.
+This repository contains the submission of **Group 9**, composed of **Daniel Martins Borges (109474)** and **Duarte Pereira da Cruz (110181)**, for the **Machine Learning (IST) and NTT Data Challenge 2025/26**. We got **2nd Place**.
 
 The primary deliverables are located in the [submission folder](./submission/), which contains both the [submitted notebook](./submission/notebook/Group09_notebook.ipynb) and the [submitted report](./submission/report/group9-report.pdf). For detailed information about the remaining folders, refer to the Repository Structure section below.
 
